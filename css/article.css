@@ -1,0 +1,107 @@
+.cover {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/karl1.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.img1 {
+  width: 50vw;
+  height: 50vh;
+  background: url("../images/choupette_1.jpg") no-repeat center;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2 {
+  width: 50vw;
+  height: 70vh;
+  background: url("../images/choupette1.png") no-repeat center;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img3 {
+  width: 50vw;
+  height: 70vh;
+  background: url("../images/choupette2.png") no-repeat center;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: 'AssistantLight';
+  src: url(../fonts/Assistant-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GothicA1Light';
+  src: url(../fonts/GothicA1-Light.ttf) format('truetype');
+}
+
+.title {
+  font-family: 'GothicA1Light';
+  font-size: 50px;
+  color: #304B5B;
+  position: relative;
+  letter-spacing: 4px;
+  left: 24%;
+}
+
+.heading {
+  font-family: 'GothicA1Light';
+  font-size: 20px;
+  color: #56746C;
+  position: absolute;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  left: 25%;
+}
+
+.container {
+  font-family: 'AssistantLight';
+  letter-spacing: 0.8px;
+  line-height: 1.8;
+  font-size: 20px;
+  color: #567289;
+  position: relative;
+  left: 25%;
+  width: 600px;
+}
+
+.subcom {
+  font-family: 'AssistantLight';
+  letter-spacing: 0.8px;
+  line-height: 1;
+  font-size: 15px;
+  color: #304B5B;
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+.subcom1 {
+  font-family: 'AssistantLight';
+  letter-spacing: 0.8px;
+  line-height: 1;
+  font-size: 15px;
+  color: #304B5B;
+  position: relative;
+  left: 0%;
+}
+
+.author {
+  font-family: 'GothicA1Light';
+  font-size: 15px;
+  color: #56746C;
+  position: absolute;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  left: 25%;
+}
