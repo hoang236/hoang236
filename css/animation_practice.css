@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'RobotoCondensedReg';
+  src: url(../fonts/RobotoCondensed-Regular.ttf) format('truetype');
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+  background-color: #9aaeb7;
+}
+
+.word_container {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  top: 30%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.mono {
+	font-family: 'RobotoCondensedReg';
+  font-size: 90px;
+	float: left;
+	margin-left: 1px;
+  color: #7e979b;
+}
+
+@keyframes b_slide {
+  0% { top: 0px; left: 0px; color: #7e979b; }
+  50% { top: 0px; left: -45px; color: #7e979b; }
+  100% { top: 0px; left: 0px; color: white; }
+}
+
+@keyframes e_slide {
+  0% { top: 0px; left: 0px; color: #7e979b; }
+	50% { top: -350px; left: 0px; color: white; }
+  100% { top: 0px; left: 0px; color: white; }
+}
+
+@keyframes s_fade {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes t_slide {
+  0% { top: 0px; left: 0px; color: #7e979b; }
+	50% { top: 0px; left: -45px; color: #7e979b; }
+  100% { top 0px; left: -48px; color: white; }
+
+}
+
+.b {
+	position: relative;
+	animation: b_slide 5s ease;
+  animation-delay: 0.5s;
+}
+
+.e {
+	position: relative;
+	animation: e_slide 5s ease;
+  animation-delay: 0.5s;
+}
+
+.s {
+  opacity: 0;
+	animation: s_fade 5s;
+	animation-fill-mode: forwards;
+}
+
+.t {
+	position: relative;
+	animation: t_slide 5s ease;
+  left: -48px;
+}
